@@ -1,0 +1,31 @@
+Steps to setup SourceTree
+
+1) go to bitbucket.org/product and create a free account.
+2) download the SourceTree software to your computer and run the installer. 
+3) Once installed, login to your github account and navigate to the repository that will be used. In this case, since we are sharing
+   Trent's repository, navigate to that page. 
+4) On your computer, make a new folder that will act as a local copy of the repository that you will be able to pull and push files to the github repository. 
+5) On SourceTree, click on the "clone" option on the menu at the top of the page. 
+6) On the github page, look above the list of files in the middle of the page. there should be a button that says "code" with an arrow pointing down. Click that dropdown and 
+	you should see a window with a URL pop up. copy that URL and paste it into the top line of the "clone" tab on sourcetree. 
+7) for the folder that you made your local repository, find the path to that folder and paste it in the next line on the "clone" tab.
+8) once done, click the "clone" button on the bottom of the page.
+
+9) if all steps were done correctly, if you open that local repository folder by either opening it directly, clicking on the "explorer" button in the upper right corner of the sourcetree window,
+	or by clicking the button in the middle of the sourcetree window - either way, verify that your local folder has all the files that were previously uploaded to github. 
+10) on the left side menu, look where it says "branches". the Main branch is where the source files will reside. DO NOT AMMEND THESE FILES. instead, create a branch for yourself by clicking on the 
+	branch icon at the top. label it something that everyone can easily identify like "Tony'sBranch" and click on "create branch".
+11) you should now see your newly created branch on the left side under the Main branch. This is your local "sandbox" where you can work on what you need to with local copies that won't affect the actual
+	uploaded files until you "push" your changes. 
+12) to populate your branch, right click on the Main branch and select "checkout main..." you should now see all the files from the main branch copied to yours if you now right click on your branch
+	and checkout your branch.
+	
+13) to upload additional files to github, place the new file in your local repository. Go to sourcetree and click the "push" button on the top of the page.
+14) a new window will pop up asking you where you want to push to. select your branch and then "push"
+15) go back to the list of files in your sourcetree branch. you should now see a new option on the top of the list notifying you that you have uncommitted changes. click that line and you should 
+	see the new file at the botton of the page. It is being held in a staging area right now. click on "stage all" to move the file(s) from "Unstaged" to "Staged". 
+16) to finalize the upload, click the "commit" button in the upper left corner of the page. If you want to add a comment to the upload, you can do so in the block at the bottom of the page.
+17) the final step to upload the file is to click the "Commit" button in the bottom right of the page. 
+
+--as a caution, each time you pull from the main branch i would copy the files to a separate folder. that way if anything gets corrupted you have a backup available.
+this should be a starting point to get you familiar with how to push and pull files to github.
